@@ -10,7 +10,7 @@ describe('workspace-project App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getTitleText()).toEqual('custom-select-dropdown app is running!');
+    expect(page.getTitleText()).toEqual('ngx-select-dropdown app is running!');
   });
 
   afterEach(async () => {

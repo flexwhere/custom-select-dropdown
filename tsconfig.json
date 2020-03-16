@@ -17,7 +17,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "custom-select-dropdown": [
+        "dist/custom-select-dropdown/custom-select-dropdown",
+        "dist/custom-select-dropdown"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

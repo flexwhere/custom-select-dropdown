@@ -18,18 +18,18 @@ import {
 import { NG_VALUE_ACCESSOR } from "@angular/forms";
 
 @Component({
-  selector: 'app-root',
+  selector: 'ngx-select-dropdown',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   providers: [
     {
       provide: NG_VALUE_ACCESSOR,
-      useExisting: forwardRef(() => AppComponent),
+      useExisting: forwardRef(() => SelectDropDownComponent),
       multi: true
     }
   ]
 })
-export class AppComponent
+export class SelectDropDownComponent
   implements OnInit, OnChanges, AfterViewInit {
   /** value of the dropdown */
   @Input() public _value: any;
