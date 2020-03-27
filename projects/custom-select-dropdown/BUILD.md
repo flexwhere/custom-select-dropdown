@@ -13,7 +13,7 @@ Run `ng build custom-select-dropdown` to build the project. The build artifacts 
 
 ## Publishing
 
-After building your library with `ng build custom-select-dropdown`, go to the dist folder `cd dist/custom-select-dropdown` and run `npm publish`.
+After building your library with `ng build custom-select-dropdown`, go to the dist folder `cd dist/custom-select-dropdown --prod` and run `npm publish`.
 
 ## Running unit tests
 
