@@ -9,11 +9,11 @@ Run `ng generate component component-name --project custom-select-dropdown` to g
 
 ## Build
 
-Run `ng build custom-select-dropdown` to build the project. The build artifacts will be stored in the `dist/` directory.
+Run `ng build custom-select-dropdown --prod` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Publishing
 
-After building your library with `ng build custom-select-dropdown`, go to the dist folder `cd dist/custom-select-dropdown --prod` and run `npm publish`.
+After building your library with `ng build custom-select-dropdown --prod`, go to the dist folder `cd dist/custom-select-dropdown` and run `npm publish`.
 
 ## Running unit tests
 

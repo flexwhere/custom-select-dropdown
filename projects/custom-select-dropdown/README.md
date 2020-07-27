@@ -3,10 +3,6 @@
 
 `custom-select-dropdown` Custom Dropdown component for Angular 4+ with multiple and single selection options
 
-## Features
-* Same features as https://manishjanky.github.io/ngx-select-dropdown/ along with "Select all items" during multiple selection.
-
-
 ## Examples
 
 * [demo-page](https://manishjanky.github.io/ngx-select-dropdown/)
