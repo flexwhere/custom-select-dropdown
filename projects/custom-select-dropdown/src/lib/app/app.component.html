@@ -59,6 +59,7 @@
             | limitTo: config.limitTo;
           let i = index
         "
+        [title]="item[config.displayKey] || item"
         tabindex="-1"
         [ngClass]="{ active: focusedItemIndex == i }"
         (click)="selectItem(item, i)"
